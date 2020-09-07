@@ -21,4 +21,8 @@ categories:
 
 [hexo搭建个人网站博客完全教程 - 掘金](https://juejin.im/post/6844903679858851853)
 
+[介绍 | Valine 一款快速、简洁且高效的无后端评论系统](https://valine.js.org/)
+
+[LeanCloud](https://www.leancloud.cn/)
+
 -Vince 于 2020/09/06 at San Diego, CA
