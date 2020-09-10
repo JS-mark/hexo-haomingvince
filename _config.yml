@@ -5,7 +5,7 @@
 # Site
 title: Vince's Blog
 subtitle: ''
-description: ''
+description: 'Vince的博客'
 keywords:
 author: Vince
 language: zh-CN
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://haomingzhang.com
+url: https://www.haomingzhang.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -103,6 +103,16 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: https://github.com/haomingvince/haomingvince.github.io.git
   branch: master
+- type: baidu_url_submitter
+
+baidusitemap:
+  path: baidusitemap.xml
+
+baidu_url_submit:
+  count: 100                 # 提交最新的多少个链接
+  host: www.haomingzhang.com # 在百度站长平台中添加的域名
+  token: AMFamLGqupn6HWOh    # 秘钥
+  path: baidu_urls.txt
