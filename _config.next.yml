@@ -24,7 +24,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
-  footer: source/_data/footer.swig
+  #footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -379,7 +379,7 @@ back2top:
 reading_progress:
   enable: true
   # Available values: top | bottom
-  position: top
+  position: bottom
   color: "#37c6c0"
   height: 3px
 
@@ -938,7 +938,14 @@ vendors:
   # Canvas ribbon
   canvas_ribbon:
 
+  #darkmode_js: https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js
+  darkmode_js: 
+
 # Assets
 css: css
 js: js
 images: images
+
+# darkmode.js
+darkmode_js: 
+  enable: true
