@@ -160,7 +160,7 @@ $ hexo d
 
 ## Upcoming Next
 
-Next 8.0 主题配置 （[已更新](https://haomingzhang.com/2020/09/13/hexo_2/)）
+Next 8.0 主题配置 （[已更新](https://haomingzhang.com/hexo_2/)）
 
 # Reference
 

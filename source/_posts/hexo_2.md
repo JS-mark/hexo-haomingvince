@@ -11,7 +11,7 @@ categories:
 # 前言
 
 配置完了hexo，你是否对自带的主题不满意呢？本篇文章将教你如何更改及美化hexo主题。
-如果你还有没有安装hexo，请移步我的[上一篇文章](https://haomingzhang.com/2020/09/13/hexo_1/)。
+如果你还有没有安装hexo，请移步我的[上一篇文章](https://haomingzhang.com/hexo_1/)。
 
 <!--more-->
 
