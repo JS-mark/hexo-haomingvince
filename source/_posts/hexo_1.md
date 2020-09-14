@@ -12,9 +12,9 @@ categories:
 
 经过了快一星期的折腾，我的博客的各项功能也在陆续开通中，本文就来记录一下hexo + github pages心路历程及配置方法。
 
-> 可以通过右边的文章目录快速跳转哦！
-
 <!--more-->
+
+> 可以通过右边的文章目录快速跳转哦！
 
 # 安装hexo
 
@@ -56,23 +56,23 @@ categories:
 使用命令行工具(cd xxxx) 进入你的博客文件夹，依次输入以下指令：  
 安装hexo和hexo服务器模块
 
-```cmd
-npm install -g hexo-cli
-npm install hexo-server --save
+```sh
+$ npm install -g hexo-cli
+$ npm install hexo-server --save
 ```
 
 初始化博客
 
-```cmd
-hexo init blog
+```sh
+$ hexo init blog
 ```
 
 测试hexo是否安装成功：
 
-```cmd
-hexo new test
-hexo g
-hexo s
+```sh
+$ hexo new test
+$ hexo g
+$ hexo s
 ```
 
 其中hexo new test表示新建一篇名为test的博文，hexo g表示生成，是hexo generate的简写，hexo s在本地运行hexo服务器，是hexo server的简写。
@@ -102,16 +102,16 @@ deploy:
 
 接下来，安装hexo-deployer-git
 
-```cmd
-npm install hexo-deployer-git --save
+```sh
+$ npm install hexo-deployer-git --save
 ```
 
 接下来就可以推送我们的网页到github啦！
 
-```cmd
-hexo clean 
-hexo g 
-hexo d
+```sh
+$ hexo clean 
+$ hexo g 
+$ hexo d
 ```
 
 其中hexo d表示deploy，是hexo deploy的简写，它会去config里面找到deploy栏目，然后根据你配置的deployer进行配置，十分方便！
@@ -145,20 +145,24 @@ hexo d
 
 再次执行deploy
 
-```cmd
-hexo clean 
-hexo g 
-hexo d
+```sh
+$ hexo clean 
+$ hexo g 
+$ hexo d
 ```
 
 稍等几分钟，你就可以用自己的域名访问你的网站啦！
 ![](/img/hexo_pic/13.png)
 
+# 小结
+
+本文介绍了基本的hexo + github page的部署及实现，如果有任何问题，欢迎留言！
+
 ## Upcoming Next
 
-Next 8.0 主题配置
+Next 8.0 主题配置 （[已更新](https://haomingzhang.com/2020/09/13/hexo_2/)）
 
-## Reference
+# Reference
 
 [Vince's Blog](https://haomingzhang.com/)
 
