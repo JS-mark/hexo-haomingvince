@@ -53,9 +53,9 @@ favicon:
   # small: /images/favicon-16x16-next.png
   # medium: /images/favicon-32x32-next.png
   # apple_touch_icon: /images/apple-touch-icon-next.png
-  small: /img/avatar.jfif
-  medium: /img/avatar.jfif
-  apple_touch_icon: /img/avatar.jfif
+  small: https://cdn.jsdelivr.net/gh/haomingvince/ghcdn/avatar.jpg
+  medium: https://cdn.jsdelivr.net/gh/haomingvince/ghcdn/avatar.jpg
+  apple_touch_icon: https://cdn.jsdelivr.net/gh/haomingvince/ghcdn/avatar.jpg
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
@@ -130,7 +130,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /img/avatar.jfif
+  url: https://cdn.jsdelivr.net/gh/haomingvince/ghcdn/avatar.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -624,7 +624,7 @@ valine:
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   enableQQ: true # Whether to enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: [nick] # Set required fields: [nick] | [nick, mail]
-  emojiCDN: '//cdn.jsdelivr.net/gh/haomingvince/ValineCDN/'
+  emojiCDN: '//cdn.jsdelivr.net/gh/haomingvince/ghcdn/'
   emojiMaps: {
         "bilibili_doge.png": "Collections/bilibili_doge.png",
         "bilibili_baiyan.png": "Collections/bilibili_baiyan.png",

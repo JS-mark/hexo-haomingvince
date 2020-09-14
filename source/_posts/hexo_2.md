@@ -34,7 +34,7 @@ categories:
 ## 更改基本站点信息
 
 在你的博客根目录下打开 _config.yml 
-![](/img/hexo_pic/8.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/8.png)
 
 在site栏目下可以更改你的基本站点信息
 
@@ -72,7 +72,7 @@ $ git submodule add https://github.com/next-theme/hexo-theme-next themes/next
 ## 切换到next主题
 
 在你的博客根目录下打开 _config.yml 
-![](/img/hexo_pic/8.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/8.png)
 
 搜索themes，将里面的值改为next
 

@@ -32,14 +32,14 @@ categories:
 
 这里xxx填写你的github账户名称。如图：
 
-![](/img/hexo_pic/1.png)
-![](/img/hexo_pic/2.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/1.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/2.png)
 
 ### 创建一个新的仓库
 
 命名为 xxx.github.io
-![](/img/hexo_pic/3.png)
-![](/img/hexo_pic/4.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/3.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/4.png)
 
 ### 电脑上安装 [git](https://git-scm.com/)
 
@@ -49,7 +49,7 @@ categories:
 ### 电脑上安装 [node.js](https://nodejs.org/en/download/)
 
 记得加入PATH。此版本node.js集成了npm，可以再命令行中输入node -v 以及 npm -v 检查是否安装成功。
-![](/img/hexo_pic/5.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/5.png)
 
 ### 安装Hexo
 
@@ -78,10 +78,10 @@ $ hexo s
 其中hexo new test表示新建一篇名为test的博文，hexo g表示生成，是hexo generate的简写，hexo s在本地运行hexo服务器，是hexo server的简写。
 
 成功后会有如下提示，进入 http://localhost:4000 即可看到刚刚生成的网页。
-![](/img/hexo_pic/6.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/6.png)
 
 以下为配置完成后的样子，可能和你生成的页面不同，如果想配置和我一样的hexo可以继续阅读我的其他post。
-![](/img/hexo_pic/7.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/7.png)
 
 ### 配置到github pages
 
@@ -89,7 +89,7 @@ $ hexo s
 
 首先，打开博客目录下的 _config.yml 文件
 
-![](/img/hexo_pic/8.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/8.png)
 
 使用 ctrl+f 搜索deploy，并添加以下代码。注意！把xxx改为之前在github配置的名字即可。
 
@@ -131,17 +131,17 @@ $ hexo d
 由于我的域名是在godaddy购买的，接下来我会演示如何绑定你的github pages到godaddy，其他域名商操作应该也是雷同的。
 
 登录你的godaddy后台，点击manage DNS
-![](/img/hexo_pic/9.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/9.png)
 
 添加两条记录，一条CNAME，一条A记录，如图：
-![](/img/hexo_pic/10.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/10.png)
 其中CNAME的value就填写你的github page的值，A的value可以通过ping xxx.github.io得到。
 
 接下来，去到你的github page的settings界面，在Options->Github pages->custom domain添加你的域名：
-![](/img/hexo_pic/11.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/11.png)
 
 最后一步，在你本地 /source 文件夹下添加一个名为CNAME的文件（注意，此文件没有后缀），里面添加你的域名即可。
-![](/img/hexo_pic/12.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/12.png)
 
 再次执行deploy
 
@@ -152,7 +152,7 @@ $ hexo d
 ```
 
 稍等几分钟，你就可以用自己的域名访问你的网站啦！
-![](/img/hexo_pic/13.png)
+![](https://cdn.jsdelivr.net/gh/haomingvince/ghcdn@master/hexo_pic/13.png)
 
 # 小结
 
