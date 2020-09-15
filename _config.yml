@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://www.haomingzhang.com
+url: https://www.haomingzhang.com
 root: /
 permalink: :title/
 permalink_defaults:
@@ -105,6 +105,9 @@ theme: next
 deploy:
 - type: git
   repo: https://github.com/haomingvince/haomingvince.github.io.git
+  branch: master
+- type: git
+  repo: https://e.coding.net/haomingvince/haomingvince/haomingvince.git
   branch: master
 - type: baidu_url_submitter
 
