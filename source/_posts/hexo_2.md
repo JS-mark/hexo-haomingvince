@@ -210,7 +210,7 @@ reading_progress:
 
 ## Upcoming Next
 
-下一篇文章中，我会介绍一些我使用的插件。
+下一篇文章中，我会介绍一些我使用的插件。（[已更新](https://haomingzhang.com/hexo_3/)）
 
 # Reference
 
