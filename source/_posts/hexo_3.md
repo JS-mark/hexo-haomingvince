@@ -18,6 +18,8 @@ darkmode: true
 
 但是这个黑色模式是不可以切换的，本文将介绍如何实现一个按钮来切换黑/白模式。如果你还没有自己的博客，可以参考我的前两篇文章：[hexo基本安装及配置](https://haomingzhang.com/hexo_1/)，[hexo主题安装以及next8.0主题美化](https://haomingzhang.com/hexo_2/)。
 
+<!--more-->
+
 # 具体步骤
 
 ## 1. 添加darkmode.js到你的next主题中
@@ -105,7 +107,7 @@ $ hexo g -d
 
 ## Upcoming next
 
-为你的博客添加留言板功能
+为你的博客添加留言板功能（[已更新](https://haomingzhang.com/hexo_4/)）
 
 # Reference
 
